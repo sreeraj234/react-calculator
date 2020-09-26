@@ -1,0 +1,47 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: black;
+}
+
+.display{
+    width:auto;
+    height:100px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+button{
+    width: 70px;
+    height: 60px;
+    color: rgba(236, 234, 234, 0.849);
+    background-color: rgba(65,65,65);
+    border-style: solid;    
+    border-color: black;
+    border-width: 0.1px; 
+}
+
+.dark-button{
+    background-color: #272727;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+#equal{
+    height:120px;
+    justify-content: flex-end;
+}
+
+#zero{
+    width:140px;
+}
+
+

@@ -1,0 +1,37 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    color: rgba(236, 234, 234, 0.849);
+    background-color: rgba(65,65,65);
+    border-style: solid;    
+    border-color: black;
+    border-width: 0.1px; 
+}
+
+.dark-button{
+    background-color: #272727;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+#equal{
+    height:120px;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    background-color:#e68414fd;
+}
+
+#zero{
+    font-weight: 700;
+    width:140px;
+}
+
+
